@@ -97,13 +97,22 @@ QA-Automation-Assignment-HelloBooks/<br>
 │ └── TestCase_Document.xlsx/<br>
 │<br>
 ├── /Automation_Suite//<br>
-│ ├── /src//<br>
-│ │ ├── /base//<br>
-| | └──BaseTest.java<br>
-│ │ ├── /pages//<br>
-| | └──SignUpPage.java<br>
-| | └──LoginPage.java<br>
-│ │ └── /tests//<br>
+├── src/<br>
+│ ├── main/java/<br>
+│ │ ├── base/<br>
+│ │ │ └── BaseTest.java<br>
+│ │ │<br>
+│ │ ├── pages/<br>
+│ │ │ ├── SignUpPage.java<br>
+│ │ │ ├── LoginPage.java<br>
+│ │<br>
+│ └── test/java/<br>
+│ ├── tests/<br>
+│ │ ├── SignUpTest.java<br>
+│ │ ├── LoginTest.java<br>
+│ │<br>
+│ └── listeners/<br>
+│ └── BaseListener.java<br>
 │ ├── pom.xml/<br>
 │ └── testng.xml/<br>
 │<br>
@@ -119,3 +128,86 @@ QA-Automation-Assignment-HelloBooks/<br>
 └── /All Screenshots//<br>
 
 ---
+
+## 🧾 Reports & Evidence
+
+This project includes three reporting formats generated after automation execution.
+
+| Report Type | Framework | Description |
+|--------------|------------|--------------|
+| 🧩 Allure Report | Allure + TestNG | Step-by-step test documentation with severity, story, and screenshots |
+| 🧾 TestNG HTML Report | Default TestNG | Execution summary, class-level details |
+| 📈 Extent Report | ExtentReports | Graphical dashboard with pass/fail statistics |
+
+### 📊 Visual Proofs (Screenshots Attached)
+
+### 🧩 Allure Report Dashboard
+![Allure Report Dashboard](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Allure%20Report%20Dashboard.png)
+
+### 🧩 Allure Report Graph
+![Allure Report Graph](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Allure%20Report%20Graphs.png)
+
+### 🧩 Allure Report Severity
+![Allure Report Severity](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Allure%20Report%20Severity.png)
+
+### 🧩 Allure Report Duration
+![Allure Report Duration](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Allure%20Report%20Duration%20Graph.png)
+
+### 🧩 Allure Report Behaviour
+![Allure Behaviour](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Allure%20Report%20Behaviour.png)
+
+### 🧩 Allure Report Categories
+![Allure Categories](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Allure%20Report%20Categories%20.png)
+
+### 🧩 Allure Report Package
+![Allure Package](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Allure%20Report%20Packages.png)
+
+### 🧩 Allure Report Status
+![Allure Status](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Allure%20Report%20Status.png)
+
+### 🧩 Allure Report Suite
+![Allure Suite](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Allure%20Report%20Suites.png)
+
+### 🧩 Extent Report Dashboard
+![Extent Dashboard](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Extent%20Report%20Dashboard.png)
+
+### 🧩 Extent Report Failed Test
+![Extent Report Failed Test](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Extent%20Report%20Failed%20Test.png)
+
+### 🧩 Extent Report Log
+![Extent Logs](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Extent%20Report%20Logs%20and%20Event.png)
+
+### 🧩 Extent Report System
+![Extent System](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Extent%20Report%20System%20Details.png)
+
+### 🧩 Extent Report Test Details
+![Extent Report Test Deatils](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Extent%20Report%20Test%20Details.png)
+
+### 🧩 Extent Report Test Summary
+![Extent Summary](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Extent%20Report%20Test%20Summary.png)
+
+### 🧩 Extent Report Timeline
+![Extent Timeline](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/Extent%20Report%20Timeline.png)
+
+### 🧩 IntelliJ Idea Output
+![IntelliJ Idea Output](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/IntelliJ%20Idea%20Output.png)
+
+### 🧩 TestNG HTML Report
+![Testng html report](https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks/blob/592614fad43c46a0c2874679e0dc4e4ada7e3684/All%20Screenshots/TestNG%20HTML%20Report.png)
+
+> *Reports are generated locally; screenshots are attached for verification.*
+
+---
+
+
+## 🧩 Allure Report Execution Commands
+
+```bash
+# Step 1: Run Test Suite
+mvn clean test
+
+# Step 2: Generate Allure Report
+allure generate allure-results --clean -o allure-report
+
+# Step 3: Serve Report Locally
+allure serve allure-results
