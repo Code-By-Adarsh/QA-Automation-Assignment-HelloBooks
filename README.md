@@ -211,3 +211,27 @@ allure generate allure-results --clean -o allure-report
 
 # Step 3: Serve Report Locally
 allure serve allure-results
+```
+
+---
+
+### :gear: How to Run the Project
+
+#### **1. Clone the Repository**
+```bash
+git clone https://github.com/Code-By-Adarsh/QA-Automation-Assignment-HelloBooks.git
+```
+#### **2. Open it in IntelliJ Idea and other IDE's**
+#### **3. Download Mvn and Allure**
+#### **4. Set that in System variable**
+#### **5. Run in IDE's through testng.xml**
+#### **6. Give command in CLI**
+```bash
+allure serve allure-results
+```
+
+---
+
+## :handshake: Author
+
+Adarsh Jayprakash Mishra<br>
