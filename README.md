@@ -92,27 +92,30 @@ Because of this, **OTP verification could not be bypassed or mocked programmatic
 
 ## 📁 Project Structure
 QA-Automation-Assignment-HelloBooks/<br>
-│/<br>
+│<br>
 ├── /Test Case Document//<br>
 │ └── TestCase_Document.xlsx/<br>
-│/<br>
+│<br>
 ├── /Automation_Suite//<br>
 │ ├── /src//<br>
 │ │ ├── /base//<br>
+| | └──BaseTest.java<br>
 │ │ ├── /pages//<br>
+| | └──SignUpPage.java<br>
+| | └──LoginPage.java<br>
 │ │ └── /tests//<br>
 │ ├── pom.xml/<br>
 │ └── testng.xml/<br>
-│/<br>
-├── /Reports//<br>
+│<br>
+├── /Execution Reports//<br>
 │ ├── testng-results.html/<br>
 │ ├── extent-report.html/<br>
 │ └── /allure-report//<br>
-│/<br>
+│<br>
 ├── /Defect_Log//<br>
 │ └── Defect_Log_Document.xlsx/<br>
 │/<br>
 └── README.md/<br>
-└── /Screenshots//<br>
+└── /All Screenshots//<br>
 
 ---
