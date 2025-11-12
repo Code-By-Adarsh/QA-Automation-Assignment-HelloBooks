@@ -70,8 +70,6 @@ Because of this, **OTP verification could not be bypassed or mocked programmatic
 - In **automation**, the OTP step was **mocked/skipped** to allow test completion up to the onboarding redirect step.
 - The automated “Signup – Happy Path” test is intentionally **marked as skipped** (via `SkipException`) to maintain integrity and avoid false passes.
 
-
-### 🧾 Included in README (Honesty Note to Recruiters)
 > The automated *Signup — Happy Path* test stops at the OTP step and does **not** reach the dashboard because OTP verification could not be bypassed/mocked in the test environment.  
 
 ---
